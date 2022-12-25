@@ -12,6 +12,8 @@ using namespace std;
 
 Mat imgGray, imgBlur, imgCanny, imgDil;
 
+
+
 /**
 * @param imgDil Dilation img in
 * @param img output img
@@ -25,6 +27,10 @@ void getContours(Mat imgDil, Mat img) {
 
 	findContours(imgDil, contours, hierarchy, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
 
+	// get conner of each shape
+	vector<vector<Point>> conPoly(contours.size());
+	vector<Rect> boundRect(contours.size());
+
 
 	// find and eliminate noise in the image
 	for (int i = 0; i < contours.size(); i++) {
@@ -32,9 +38,6 @@ void getContours(Mat imgDil, Mat img) {
 		double area = contourArea(contours[i]);
 		cout << area << endl;
 
-		// get conner of each shape
-		vector<vector<Point>> conPoly(contours.size());
-		vector<Rect> boundRect(contours.size());
 		string objType;
 		
 		// omit the noise

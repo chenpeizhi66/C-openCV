@@ -1,3 +1,24 @@
-﻿  Chapter7(Shape detection).cpp
-C:\Users\潮鸣\Desktop\openCV\ConsoleApplication1\ConsoleApplication1\Chapter7(Shape detection).cpp(89,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  project2(document scanner).cpp
+C:\Users\潮鸣\Desktop\openCV\ConsoleApplication1\ConsoleApplication1\project2(document scanner).cpp(73,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\潮鸣\Desktop\openCV\ConsoleApplication1\ConsoleApplication1\project2(document scanner).cpp(121,49): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\潮鸣\Desktop\openCV\ConsoleApplication1\ConsoleApplication1\project2(document scanner).cpp(121,46): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\潮鸣\Desktop\openCV\ConsoleApplication1\ConsoleApplication1\project2(document scanner).cpp(127,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\潮鸣\Desktop\openCV\ConsoleApplication1\ConsoleApplication1\project2(document scanner).cpp(147,32): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\潮鸣\Desktop\openCV\ConsoleApplication1\ConsoleApplication1\project2(document scanner).cpp(147,19): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
   ConsoleApplication1.vcxproj -> C:\Users\潮鸣\Desktop\openCV\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
